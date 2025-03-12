@@ -19,6 +19,14 @@ Refining your prompts will enhance your deliverables and productivity by leverag
 - Get accurate responses.
 - Minimize incorrect responses.
 
+## Where Can I test my prompt?
+
+- https://huggingface.co/playground
+- https://chat.mistral.ai/chat
+- https://chatgpt.com/
+- https://chat.deepseek.com/a/chat
+- https://gemini.google.com/app
+
 ## Prompt techniques
 
 ### Steps for improving your prompt
@@ -41,4 +49,19 @@ Recommended for:
 
 
 ### One-Shot
+
+In this technique you give to the AI Model a single example of how you want the response, this guides the AI Model on how the response should be. 
+
+Recommended for:
+- Limited training data.
+- Easy tasks that require output formatting.
+- Not complex enough to require several examples.
+
+### Few-shot
+
+You provide in the prompt a few examples of the task you want the model to execute. This technique helps the AI Model to response as expected.
+
+Recommended for:
+- 
+
 
