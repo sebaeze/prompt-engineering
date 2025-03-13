@@ -22,6 +22,7 @@ Refining your prompts will enhance your deliverables and productivity by leverag
 ## Where Can I test my prompt?
 
 - https://huggingface.co/playground
+- https://aistudio.google.com/prompts/new_chat
 - https://chat.mistral.ai/chat
 - https://chatgpt.com/
 - https://chat.deepseek.com/a/chat
@@ -62,6 +63,27 @@ Recommended for:
 You provide in the prompt a few examples of the task you want the model to execute. This technique helps the AI Model to response as expected.
 
 Recommended for:
-- 
+- Task definition.
+- Tasks for a niche that the AI Model was not train on.
+- When the AI Model needs to adapt quickly having no datataset to be trained.
+
+### Chain-of-Thought (CoT)
+
+The CoT technique involves in sending in the prompt a series of steps to follow by the AI Model, in such a way that the response is the result of following a procedure, making easier to resolve complex tasks and reducing the risk of incorrect assumptions.
+
+Recommended for:
+- Complex problem solving
+- When a problem requires several steps to achieve a solution
+- Reduce errores in ambiguos or unclear contexts
+- Teach the model a procedure or process to deal with specific areas
+
+### Instruction-based prompting
+
+Using this technique you send direct and clear requests to the model, for example: resume a text in 200 words, make a list of 10 points, etc.
+
+Recommended for:
+- Performing specific tasks
+- Chatbots that response to users in specific way
+- Generating content from text or input
 
 
