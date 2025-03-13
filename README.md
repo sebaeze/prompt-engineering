@@ -86,4 +86,12 @@ Recommended for:
 - Chatbots that response to users in specific way
 - Generating content from text or input
 
+### Role-based prompting
+
+In this technique, you assign a role or persona for the model to assume, so the model has context and boundaries in order to elaborate answers to the inquires.
+
+Recommended for:
+- Education content, for example assuming the role of teacher.
+- Customer service and support.
+- Professional in a specific area.
 
